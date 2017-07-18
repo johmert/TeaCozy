@@ -18,3 +18,8 @@ header {
   height: 50px;
   padding: 9px 10px;
 }
+
+nav span {
+  display: inline-block;
+  padding: 9px 10px;
+}
