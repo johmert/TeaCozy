@@ -1,34 +1,61 @@
 * {
   background-color: black;
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   opacity: 0.9;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
   border-bottom: 1px solid seashell;
+  z-index: 1;
 }
 
-header img {
-  50px;
-  padding-left: 10px;
-  align-items: left;
-}
-
-.logo {
+.flex-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+header img {
+  justify-content: flex-start;
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  display: inline-block;
+  justify-content: space-between;
+  margin: auto 20px;
+}
+
 nav span {
   display: inline-block;
-  text-align: right;
   padding: 20px 10px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+#mission {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+}
+
+#mission .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
 }
