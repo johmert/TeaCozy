@@ -1,0 +1,12 @@
+* {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+}
