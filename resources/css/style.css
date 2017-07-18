@@ -7,6 +7,8 @@
 }
 
 header {
+  display: flex;
+  align-items: center;
   position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -18,6 +20,7 @@ header {
   flex-grow: 1;
   height: 50px;
   padding: auto 10px;
+  margin-right: 10px;
 }
 
 nav span {
