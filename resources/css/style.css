@@ -8,6 +8,7 @@
 
 header {
   position: fixed;
+  height: 69px;
   border-bottom: 1px solid seashell;
 }
 
@@ -16,10 +17,10 @@ header {
   align-items: center;
   flex-grow: 1;
   height: 50px;
-  padding: 9px 10px;
+  padding: auto 10px;
 }
 
 nav span {
   display: inline-block;
-  padding: 9px 10px;
+  margin-bottom: 10px;
 }
