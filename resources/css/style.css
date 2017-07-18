@@ -10,3 +10,9 @@ header {
   position: fixed;
   border-bottom: 1px solid seashell;
 }
+
+.logo {
+  display: flex;
+  height: 50px;
+  padding: 9px 10px;
+}
