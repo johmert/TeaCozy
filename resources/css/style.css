@@ -8,21 +8,27 @@
 
 header {
   display: flex;
+  justify-content: center;
   align-items: center;
   position: fixed;
-  height: 69px;
+  width: 100%;
   border-bottom: 1px solid seashell;
+}
+
+header img {
+  50px;
+  padding-left: 10px;
+  align-items: left;
 }
 
 .logo {
   display: flex;
-  align-items: center;
-  flex-grow: 1;
-  height: 50px;
-  padding: auto 10px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 nav span {
   display: inline-block;
-  margin: 10px;
+  text-align: right;
+  padding: 20px 10px;
 }
