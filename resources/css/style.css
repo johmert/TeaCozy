@@ -41,6 +41,8 @@ nav span {
 .main-content {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #mission {
@@ -58,4 +60,32 @@ nav span {
   justify-content: center;
   align-items: center;
   width: 1200px;
+}
+
+#featured .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+#featured .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 5px;
+}
+
+.tea img {
+  height: 200px;
 }
