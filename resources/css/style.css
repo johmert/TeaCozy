@@ -6,10 +6,6 @@ body {
   opacity: 0.9;
 }
 
-h2 {
-  font-size: 1.5em;
-}
-
 header {
   display: flex;
   background-color: black;
@@ -21,12 +17,6 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   z-index: 1;
-}
-
-.flex-box {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 header img {
@@ -59,6 +49,12 @@ nav a {
   align-items: center;
 }
 
+.flex-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 #mission {
   display: flex;
   align-items: center;
@@ -71,8 +67,8 @@ nav a {
 #mission .content {
   background-color: black;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 1200px;
 }
@@ -87,9 +83,9 @@ nav a {
 
 #featured .content {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
   width: 1000px;
 }
 
@@ -109,8 +105,8 @@ nav a {
   background-image: url("../images/img-locations-background.jpg");
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   height: 500px;
   width: 1100px;
   margin: auto;
