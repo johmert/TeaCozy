@@ -88,8 +88,8 @@ nav a {
 #featured .content {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
   width: 1000px;
 }
 
@@ -98,7 +98,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   width: 300px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .tea img {
@@ -145,6 +145,7 @@ nav a {
   justify-content: center;
   align-items: center;
   height: 200px;
+  padding: 10px;
 }
 
 .copyright {
